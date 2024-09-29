@@ -1,0 +1,116 @@
+
+
+.content {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    position: relative;
+    width: 200px;
+    height: 400px;
+    transform-style: preserve-3d;
+    animation: animate 50s linear infinite reverse; 
+}
+
+@keyframes animate {
+    0% {
+        transform: perspective(300px) rotateY(0deg);
+    }
+    100% {
+        transform: perspective(400px) rotateY(360deg);
+    }
+}
+
+.menu-img {
+    box-shadow: 1px 2px 1px #949595;
+    transform: rotateY(180deg); 
+}
+
+.box span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i) * 45deg)) translateZ(400px); 
+    -webkit-box-reflect: below 0px linear-gradient(transparent, transparent, #0004);
+    cursor: pointer;
+}
+
+.box span img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Estilos para título y descripción */
+.image-info {
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    transform: rotateY(180deg); 
+}
+
+.image-info h3,
+.image-info p {
+    margin: 5px 0;
+    text-align: center; 
+}
+
+.image-info h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.image-info p {
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+    .content {
+        margin-top: 140px; 
+    }
+
+    .box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .image-info {
+        bottom: -30px;
+    }
+
+    .image-info h3 {
+        font-size: 16px;
+    }
+
+    .image-info p {
+        font-size: 12px;
+    }
+
+    .content {
+        height: 40vh;
+    }
+
+    .box {
+        position: relative;
+        width: 300px;
+        height: 600px;
+        transform-style: preserve-3d;
+        animation: animate 50s linear infinite reverse; 
+    }
+}
+

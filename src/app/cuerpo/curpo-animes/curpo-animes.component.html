@@ -1,0 +1,9 @@
+
+<!-- src/app/cuerpo/cuerpo-animes/cuerpo-animes.component.html -->
+<div *ngIf="animes.length > 0">
+    <div *ngFor="let anime of animes" class="anime-card">
+      <img [src]="'https://image.tmdb.org/t/p/w500' + anime.poster_path" alt="{{ anime.title }}">
+      <h3>{{ anime.title }}</h3>
+    </div>
+  </div>
+  

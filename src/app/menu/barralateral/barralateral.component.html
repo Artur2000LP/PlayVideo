@@ -1,0 +1,63 @@
+
+<div class="menu">
+	<ion-icon name="menu-outline"></ion-icon>
+	<ion-icon class="cerrar" name="close-outline"></ion-icon>
+  </div>
+  <div class="barra-lateral">
+	<div>
+	  <div class="boton">
+		<i class="bi bi-menu-button"></i>
+		<span>Categorias</span>
+		<ion-icon name="duplicate-outline"></ion-icon>
+	  </div>
+	</div>
+	<div class="linea"></div>
+	<nav class="navegacion">
+	  <ul>
+		<li>
+		  <a (click)="selectCategory('cuerpo-peliculas'); optionpeliculas()" href="#peliculas">
+			<ion-icon name="film-outline"></ion-icon>
+			<span>Peliculas</span>
+		  </a>
+		</li>
+		<li>
+		  <a (click)="selectCategory('cuerpo-peliculas'); optcnanimes()" href="#animes">
+			<ion-icon name="flame-outline"></ion-icon>
+			<span>Animes</span>
+		  </a>
+		</li>
+		<li>
+		  <a (click)="selectCategory('cuerpo-peliculas'); optcNovela()" href="#videos">
+			<ion-icon name="caret-forward-circle-outline"></ion-icon>
+			<span>Novelas</span>
+		  </a>
+		</li>
+		<li>
+		  <a (click)="selectCategory('videoAmateur')" href="#videosAmateur">
+			<ion-icon name="caret-up-outline"></ion-icon>
+			<span>Videos Amateur</span>
+		  </a>
+		</li>
+	  </ul>
+	</nav>
+	<div class="containerAyuda">
+	  <div class="linea"></div>
+	  <div class="masopcionesContainer">
+		<ul>
+		  <li>
+			<a (click)="selectCategory('ayuda')" href="#Ayuda">
+			  <ion-icon name="help-outline"></ion-icon>
+			  <span>Ayuda</span>
+			</a>
+		  </li>
+		  <li>
+			<a (click)="selectCategory('sugerencias'); toggleHelp()" href="#sugerencias">
+			  <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+			  <span>Sugerencias</span>
+			</a>
+		  </li>
+		</ul>
+	  </div>
+	</div>
+  </div>
+  

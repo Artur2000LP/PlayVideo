@@ -1,0 +1,21 @@
+
+/* src/app/cuerpo/cuerpo-animes/cuerpo-animes.component.css */
+.anime-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .anime-card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  .anime-card h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+  }
+
+  

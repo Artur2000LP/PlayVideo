@@ -1,0 +1,23 @@
+
+<header>
+    <a href="http://localhost:4200/">
+        <div class="header-left">
+            <span>PlayVideo</span>
+            <button class="triangle-button">▲</button>
+        </div>
+    </a>
+
+    
+    <nav class="header-right">
+        <div class="header-Buscar" [ngClass]="{'active': isSearchActive}" (mouseover)="toggleSearch(true)" (mouseleave)="toggleSearch(false)">
+            <input type="text" [(ngModel)]="searchQuery" placeholder="Buscar" (keyup.enter) ="selectCategory('cuerpo-peliculas')" (keyup.enter)="onSearch()" >
+            <button class="search-button"  (click)="selectCategory('cuerpo-peliculas')" (click)="onSearch()" ><ion-icon name="search-outline"></ion-icon></button>
+        </div>
+        <a href="http://localhost:4200/">Inicio</a>
+        <!-- <button class="account-button">Cuenta</button> -->
+        <a href="" class="cuenta">
+        <ion-icon name="person-circle-outline"></ion-icon>
+        </a>
+        
+    </nav>
+</header>

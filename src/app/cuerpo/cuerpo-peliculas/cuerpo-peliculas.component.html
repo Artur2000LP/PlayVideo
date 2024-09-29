@@ -1,0 +1,13 @@
+
+
+<div *ngIf="movies.length > 0" class="contPelis">
+  <div *ngFor="let movie of movies" class="movie-card contpeli" (click)="onMovieClick(movie)">
+    <img [src]="'https://image.tmdb.org/t/p/w500' + movie.poster_path" alt="{{ movie.title }}">
+    <p class="contentpelitxt">{{ movie.title }}</p>
+    <div class="movie-rating">
+      <span class="star-icon">★</span> {{ movie.vote_average }}/10
+    </div>
+    <div class="hover-text">Ver Ahora!!!</div>
+  </div>
+</div>
+

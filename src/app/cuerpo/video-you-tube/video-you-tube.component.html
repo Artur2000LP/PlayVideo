@@ -1,0 +1,32 @@
+
+   <div class="containerPrincipalPeli">
+    <div class="container">
+      <div class="video-section">
+        <iframe *ngIf="videoUrl" [src]="videoUrl" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="info-section">
+        <h1 class="movie-title">{{ selectedMovie.title }}</h1>
+        <img [src]="'https://image.tmdb.org/t/p/w500' + selectedMovie.poster_path" alt="{{ selectedMovie.title }}" class="movie-poster">
+        <p class="movie-description">
+          Sumérgete en una historia cautivadora llena de emoción, misterio y giros inesperados. Con actuaciones impresionantes y una dirección impecable, esta película te llevará a un viaje inolvidable. Un verdadero espectáculo visual que no querrás perderte.
+        </p>
+      </div>
+    </div>
+  
+    <div class="comments-section">
+      <h2>Añadir Comentario</h2>
+      <div class="add-comment-section">
+        <input [(ngModel)]="newCommentAuthor" placeholder="Tu nombre" class="input-author">
+        <textarea [(ngModel)]="newCommentText" placeholder="Escribe tu comentario aquí..." class="input-comment"></textarea>
+        <button (click)="addComment()">Añadir Comentario</button>
+      </div>
+
+      <h2>Comentarios Populares</h2>
+      <div class="comment" *ngFor="let comment of comments; let i = index">
+        <p class="comment-author">{{ comment.author }}</p>
+        <p class="comment-text">{{ comment.text }}</p>
+      </div>
+
+    </div>
+  </div>
+  
