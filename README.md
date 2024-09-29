@@ -27,21 +27,21 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
 ## PASOS PARA GITHUB PAGE
 
-::::::::::::::: seguir los pasos de GitHub:::::::::::::::::::
+```::::::::::::::: seguir los pasos de GitHub:::::::::::::::::::
 
   PS C:> git add README.md
   PS C:> git commit -m "first commit play video"
   PS C:> git branch -M main
   PS C:> git remote add origin https://github.com/Artur2000LP/PlayVideo.git
   PS C:> git push -u origin main
-
-::::::::::::::: para activar GitHub Pages :::::::::::::::::::
+```
+```::::::::::::::: para activar GitHub Pages :::::::::::::::::::
 PS C:> git add .
 PS C:> git commit -m "first commit play video Actualizado"
 PS C:> git push -u origin main   
 PS C:> ng add angular-cli-ghpages
 PS C:> ng deploy --base-href=https://Artur2000LP.github.io/PlayVideo/
-
+```
 📦 Building "playVideo"
 📦 Build target "playVideo:build:production"
 Initial chunk files   | Names         |  Raw size | Estimated transfer size
