@@ -42,6 +42,7 @@ PS C:> git push -u origin main
 PS C:> ng add angular-cli-ghpages
 PS C:> ng deploy --base-href=https://Artur2000LP.github.io/PlayVideo/
 ```
+
 📦 Building "playVideo"
 📦 Build target "playVideo:build:production"
 Initial chunk files   | Names         |  Raw size | Estimated transfer size
@@ -58,7 +59,7 @@ X [ERROR] css-inline-fonts:https://fonts.googleapis.com/css2?family=Ubuntu:ital,
 ❌ An error occurred when trying to deploy:
 Error while building the app.
 
-________________ "angular.json"   para ese error tuve que aumentar ___________________
+```________________ "angular.json"   para ese error tuve que aumentar ___________________
 "budgets": [
                 {
                   "type": "initial",
@@ -71,8 +72,8 @@ ________________ "angular.json"   para ese error tuve que aumentar _____________
                   "maximumError": "50kB"  // aqui tambien aumente 
                 }
               ],
-
-:::  solución ChatGPT ::::::::::::
+```
+```:::  solución ChatGPT ::::::::::::
 
 ____visualizamos 
 
@@ -85,7 +86,7 @@ PS C:> git add .
 PS C:> git commit -m "Preparando para el despliegue"
 PS C:> git push origin main
 PS C:> ng deploy --base-href=https://Artur2000LP.github.io/PlayVideo/ --repo=https://github.com/Artur2000LP/PlayVideo.git
-
+```
 📦 Building "playVideo"
 📦 Build target "playVideo:build:production"
 Initial chunk files   | Names         |  Raw size | Estimated transfer size
