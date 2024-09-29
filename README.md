@@ -27,7 +27,8 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
 ## PASOS PARA GITHUB PAGE
 
-```::::::::::::::: seguir los pasos de GitHub:::::::::::::::::::
+::::::::::::::: seguir los pasos de GitHub:::::::::::::::::::
+```code
 
   PS C:> git add README.md
   PS C:> git commit -m "first commit play video"
@@ -35,7 +36,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
   PS C:> git remote add origin https://github.com/Artur2000LP/PlayVideo.git
   PS C:> git push -u origin main
 ```
-```::::::::::::::: para activar GitHub Pages :::::::::::::::::::
+::::::::::::::: para activar GitHub Pages :::::::::::::::::::
+``` code
 PS C:> git add .
 PS C:> git commit -m "first commit play video Actualizado"
 PS C:> git push -u origin main   
@@ -59,7 +61,9 @@ X [ERROR] css-inline-fonts:https://fonts.googleapis.com/css2?family=Ubuntu:ital,
 ❌ An error occurred when trying to deploy:
 Error while building the app.
 
-```________________ "angular.json"   para ese error tuve que aumentar ___________________
+
+________________ "angular.json"   para ese error tuve que aumentar ___________________
+```code
 "budgets": [
                 {
                   "type": "initial",
@@ -73,7 +77,9 @@ Error while building the app.
                 }
               ],
 ```
-```:::  solución ChatGPT ::::::::::::
+
+:::  solución ChatGPT ::::::::::::
+```code
 
 ____visualizamos 
 
