@@ -46,6 +46,7 @@ PS C:> ng deploy --base-href=https://Artur2000LP.github.io/PlayVideo/
 ```
 
 📦 Building "playVideo"
+```code
 📦 Build target "playVideo:build:production"
 Initial chunk files   | Names         |  Raw size | Estimated transfer size
 main-HWNPT52J.js      | main          | 321.22 kB |                78.74 kB
@@ -55,7 +56,7 @@ styles-EPMVOGKS.css   | styles        |   1.73 kB |               485 bytes
                       | Initial total | 357.48 kB |                90.52 kB
 
 Application bundle generation failed. [6.263 seconds]
-
+```
 X [ERROR] css-inline-fonts:https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap exceeded maximum budget. Budget 4.10 kB was not met by 10.52 kB with a total of 14.61 kB.
 
 ❌ An error occurred when trying to deploy:
@@ -94,6 +95,7 @@ PS C:> git push origin main
 PS C:> ng deploy --base-href=https://Artur2000LP.github.io/PlayVideo/ --repo=https://github.com/Artur2000LP/PlayVideo.git
 ```
 📦 Building "playVideo"
+```code
 📦 Build target "playVideo:build:production"
 Initial chunk files   | Names         |  Raw size | Estimated transfer size
 main-HWNPT52J.js      | main          | 321.22 kB |                78.74 kB
@@ -101,6 +103,6 @@ polyfills-SCHOHYNV.js | polyfills     |  34.52 kB |                11.29 kB
 styles-EPMVOGKS.css   | styles        |   1.73 kB |               485 bytes
 
                       | Initial total | 357.48 kB |                90.52 kB
-
+```
 🌟 Successfully published via angular-cli-ghpages! Have a nice day!  
 //esto significa que logramos solucionar 
