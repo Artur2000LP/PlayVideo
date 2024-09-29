@@ -16,7 +16,8 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class YouTubeService {
-  private apiKey = 'AIzaSyCpxJuS48Q08WgCDI8CDuUDY2gCn-NVVYA';
+  //private apiKey = 'AIzaSyCpxJuS48Q08WgCDI8CDuUDY2gCn-NVVYA';
+  private apiKey = 'AIzaSyDrpcPpY7bw1TcJtkw1kuXCCgL8zTuMjhM';
   private apiUrl = 'https://www.googleapis.com/youtube/v3/search';
 
   constructor(private http: HttpClient) {}
