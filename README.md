@@ -28,11 +28,12 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## PASOS PARA GITHUB PAGE
 
 ::::::::::::::: seguir los pasos de GitHub:::::::::::::::::::
-PS C:> git add README.md
-PS C:> git commit -m "first commit play video"
-PS C:> git branch -M main
-PS C:> git remote add origin https://github.com/Artur2000LP/PlayVideo.git
-PS C:> git push -u origin main
+
+  PS C:> git add README.md
+  PS C:> git commit -m "first commit play video"
+  PS C:> git branch -M main
+  PS C:> git remote add origin https://github.com/Artur2000LP/PlayVideo.git
+  PS C:> git push -u origin main
 
 ::::::::::::::: para activar GitHub Pages :::::::::::::::::::
 PS C:> git add .
@@ -74,6 +75,7 @@ ________________ "angular.json"   para ese error tuve que aumentar _____________
 :::  solución ChatGPT ::::::::::::
 
 ____visualizamos 
+
 PS C:> git init
 PS C:> git remote -v 
 ____visualizamos 
