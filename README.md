@@ -4,6 +4,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
  https://artur2000lp.github.io/PlayVideo/
 
+ ![image](https://github.com/user-attachments/assets/e61e527f-fc4e-4210-aaed-ecd29d1bda98)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
